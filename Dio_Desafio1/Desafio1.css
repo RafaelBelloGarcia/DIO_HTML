@@ -1,0 +1,93 @@
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+table,
+td {
+  border: solid black;
+  border-width: 0.1px;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 75rem;
+  display: flex;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-color: aqua;
+  padding: 10px 20px 0px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(5, 108, 108);
+  max-height: 9.375rem;
+}
+
+img {
+  width: 100%;
+}
+
+.content {
+  background-color: white;
+  min-height: 18.75rem;
+  padding: 1.25rem;
+  text-align: justify;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container_one {
+  display: flex;
+  flex-direction: column;
+  padding: 0.625rem;
+}
+
+.td-content {
+  background-color: black;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 31.25rem;
+}
+
+textarea {
+  width: 31.25rem;
+  height: 12rem;
+}
+
+.container_button {
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: rgb(99, 56, 240);
+  min-height: 150px;
+}
